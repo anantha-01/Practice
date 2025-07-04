@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int num,delpos,i,temp;
+    int num,delpos,i;
     printf("Enter Number of elements in the Array:\n");
     scanf("%d",&num);
     int a[num];
@@ -24,4 +24,5 @@ int main(){
     for (i=0;i<num-1;i++){
         printf("%d\t",a[i]);
     }
+    return 0;
 }
